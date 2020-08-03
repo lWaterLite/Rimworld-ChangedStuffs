@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ChangedStuffs</name>
+	<author>1ow.com</author>
+	<packageId>ChangedStuffs.CS</packageId>	
+	<supportedVersions>
+	<li>1.0</li>
+    <li>1.1</li>
+	</supportedVersions>
+	<description>
+	更改了原版一些物品的属性，目前已有：
+    乐思芯片 部件效率更改为+5%，心情加成改为+15
+	止痛芯片 增加部件效率为+5%
+	</description>
+</ModMetaData>

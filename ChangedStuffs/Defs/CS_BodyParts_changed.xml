@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Joywire changed-->
+ <HediffDef ParentName="ImplantHediffBase">
+    <defName>Joywire</defName>
+    <label>joywire</label>
+    <labelNoun>a joywire</labelNoun>
+    <description>An installed joywire implant.</description>
+    <descriptionHyperlinks><ThingDef>Joywire</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <partEfficiencyOffset>+0.05</partEfficiencyOffset>  <!--changed-->
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Joywire</spawnThingOnRemoved>
+ </HediffDef>
+ <ThoughtDef>
+    <defName>Joywire</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>Joywire</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>joywire</label>
+        <description>It feels amazing.</description>
+        <baseMoodEffect>15</baseMoodEffect>  <!--changed-->
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--painstopper changed-->
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>Painstopper</defName>
+    <label>painstopper</label>
+    <labelNoun>a painstopper</labelNoun>
+    <description>An installed painstopper implant.</description>
+    <descriptionHyperlinks><ThingDef>Painstopper</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <partEfficiencyOffset>+0.05</partEfficiencyOffset>  <!--changed-->
+      </li>
+    </stages>
+    <spawnThingOnRemoved>Painstopper</spawnThingOnRemoved>
+  </HediffDef>
+</Defs>
